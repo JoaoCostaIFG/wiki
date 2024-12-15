@@ -76,7 +76,6 @@ postmap hash:/etc/postfix/smtp_header_checks
 
 Append the following to `/etc/postfix/main.cf` and reload postfix's config:
 
-
 ```bash
 smtp_header_checks = pcre:/etc/postfix/smtp_header_checks
 ```
