@@ -9,6 +9,7 @@
 		- [java-mockito.md](Wiki/programming/java-mockito.md)
 	- [server](src/Wiki/server/README.md)
 		- [mail-alerts-proxmox.md](Wiki/server/mail-alerts-proxmox.md)
+		- [Clover-bootloader.md](Wiki/server/Clover-bootloader.md)
 	- [recipes](src/Wiki/recipes/README.md)
 		- [pizza.md](Wiki/recipes/pizza.md)
 		- [omolete-atum.md](Wiki/recipes/omolete-atum.md)
