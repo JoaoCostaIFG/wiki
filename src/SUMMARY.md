@@ -32,6 +32,7 @@
 		- [pikvm-i2c-display.md](Wiki/linux/pikvm-i2c-display.md)
 		- [smartcard-reader.md](Wiki/linux/smartcard-reader.md)
 		- [nvme-block-size.md](Wiki/linux/nvme-block-size.md)
+		- [Hyprlock-automation-commands.md](Wiki/linux/Hyprlock-automation-commands.md)
 		- [format-sd-card.md](Wiki/linux/format-sd-card.md)
 		- [wine-creating-filetype-associations.md](Wiki/linux/wine-creating-filetype-associations.md)
 		- [shell-param-expansion.md](Wiki/linux/shell-param-expansion.md)
