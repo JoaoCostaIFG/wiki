@@ -2,8 +2,13 @@ name: Deploy mdBook site to Pages
 
 on:
   push:
-    branches: [ "master" ]
+    branches: ["master"]
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Get Wiki contents from Joplin
+    types:
+      - completed
 
 permissions:
   contents: read
@@ -19,7 +24,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      MDBOOK_VERSION: 0.4.36
+      MDBOOK_VERSION: 0.4.43
     steps:
       - uses: actions/checkout@v4
       - name: Install mdBook
