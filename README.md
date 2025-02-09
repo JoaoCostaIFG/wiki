@@ -1,6 +1,8 @@
 # JoaoCostaIFG wiki
 
-[Access the Wiki here](https://wiki.joaocosta.dev)
+[Access the Wiki here](https://wiki.joaocosta.dev).
+
+Also visit my blog over [here](https://joaocosta.dev).
 
 ## What/Why
 
