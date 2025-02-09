@@ -2,7 +2,7 @@
 
 [Access the Wiki here](https://wiki.joaocosta.dev).
 
-Also visit my blog over [here](https://joaocosta.dev).
+You can read my blog post about it [here](https://joaocosta.dev/blog/14/using-joplin-to-publish-a-wiki).
 
 ## What/Why
 
