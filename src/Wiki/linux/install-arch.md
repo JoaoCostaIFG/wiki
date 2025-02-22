@@ -108,12 +108,24 @@ Edit `/etc/locale.gen` and uncomment the needed locales (e.g.: `en_US.UTF-8`).
 locale-gen
 ```
 
-Create `/etc/locale.conf` and set the LANG variable accordingly:
+Create `/etc/locale.conf` and set the LANG and LC_* variables accordingly (never set LC_ALL because it overrides everything else):
 
 ```bash
 nvim /etc/locale.conf
 # ---
 LANG=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+LC_NUMERIC=en_US.UTF-8
+LC_TIME=pt_PT.UTF-8
+LC_COLLATE=C
+LC_MONETARY=pt_PT.UTF-8
+LC_MESSAGES=en_US.UTF-8
+LC_PAPER=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+LC_ADDRESS=en_US.UTF-8
+LC_TELEPHONE=en_US.UTF-8
+LC_MEASUREMENT=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
 # ---
 ```
 
