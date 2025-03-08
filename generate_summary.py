@@ -10,19 +10,28 @@ SUMMARY = SRC / "SUMMARY.md"
 
 def calculate_indent(level: int) -> str:
     """Calculate the indentation for markdown based on the directory depth."""
-    return "\t" * level
+    return "  " * level
 
 
 def build_dir(entry: Path, level: int) -> str:
     """Build a markdown entry for a directory."""
     indent = calculate_indent(level - 3)  # Exclude Wiki and base directory
-    return f"{indent}- [{entry.parent.name}]({entry})\n"
+    return f"{indent}- [{entry.parent.name.title()}]({entry})\n"
+
+
+def get_entry_name(entry: Path) -> str:
+    with open("src" / entry, "r", encoding="utf-8") as file:
+        title = file.readline().strip("# \n")
+        if title:
+            return title
+    # if we cant easily get the title, just return the filename without the .md extension
+    return entry.name[:-3].replace("-", " ").replace("_", " ").title()
 
 
 def build_entry(entry: Path, level: int) -> str:
     """Build a markdown entry for a file."""
     indent = calculate_indent(level - 2)  # Exclude Wiki
-    return f"{indent}- [{entry.name}]({entry})\n"
+    return f"{indent}- [{get_entry_name(entry)}]({entry})\n"
 
 
 def main():
@@ -54,7 +63,9 @@ def main():
             # Check if directory needs to be added
             if path.parent not in (last_dir, WIKI):
                 last_dir = path.parent
-                summary_file.write(build_dir(last_dir / "README.md", len(path.parts)))
+                summary_file.write(
+                    build_dir(last_dir.relative_to(SRC) / "README.md", len(path.parts))
+                )
 
             # Add the markdown entry for the file
             summary_file.write(build_entry(relative_path, len(path.parts)))
