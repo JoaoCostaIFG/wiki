@@ -6,10 +6,14 @@ src = "src"
 title = "JoaoCostaIFG's Wiki"
 
 [output.html]
-default-theme = "macchiato"
-preferred-dark-theme = "macchiato"
+additional-css = [
+  "./theme/catppuccin.css",
+  "./theme/catppuccin-admonish.css",
+  "./theme/catppuccin-alerts.css",
+]
+default-theme = "latte"
+preferred-dark-theme = "mocha"
 no-section-label = true
 git-repository-url = "https://github.com/JoaoCostaIFG/wiki"
 git-repository-icon = "fa-github"
-edit-url-template = "https://github.com/JoaoCostaIFG/wiki/edit/master/{path}"
 cname = "wiki.joaocosta.dev"
