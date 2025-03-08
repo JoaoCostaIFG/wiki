@@ -3,4 +3,13 @@ authors = ["JoaoCostaIFG"]
 language = "en"
 multilingual = false
 src = "src"
-title = "JoaoCostaIFG Wiki"
+title = "JoaoCostaIFG's Wiki"
+
+[output.html]
+default-theme = "macchiato"
+preferred-dark-theme = "macchiato"
+no-section-label = true
+git-repository-url = "https://github.com/JoaoCostaIFG/wiki"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/JoaoCostaIFG/wiki/edit/master/{path}"
+cname = "wiki.joaocosta.dev"
