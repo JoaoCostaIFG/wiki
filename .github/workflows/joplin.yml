@@ -35,11 +35,8 @@ jobs:
         oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
         tags: tag:ci
     - name: Test
-      env:
-        JOPLIN_PATH: ${{ secrets.JOPLIN_PATH }}
       run: |
-        tailscale status
-        curl "$JOPLIN_PATH"
+        curl "https://joplin.tail1dfda.ts.net/login"
     - name: Login and sync Joplin Wiki notebook
       env:
         JOPLIN_PATH: ${{ secrets.JOPLIN_PATH }}
