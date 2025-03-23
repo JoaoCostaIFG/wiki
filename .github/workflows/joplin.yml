@@ -33,10 +33,10 @@ jobs:
       with:
         oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
         oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
-        tags: tag:service
+        tags: tag:ci
     - name: Test
       run: |
-        curl "https://joplin.tail1dfda.ts.net/login"
+        ping -c 4 joplin.tail1dfda.ts.net
     - name: Login and sync Joplin Wiki notebook
       env:
         JOPLIN_PATH: ${{ secrets.JOPLIN_PATH }}
