@@ -12,6 +12,7 @@
     - [OBS stream screen in camera](Wiki/linux/obs-stream-camera.md)
     - [NVME logical block size configuration](Wiki/linux/nvme-block-size.md)
     - [Using the Qudelix 5k app on Linux](Wiki/linux/Linux-Qudelix-5k-udev-rules.md)
+    - [This can be useful when dealing with NFS shares.](Wiki/linux/Chang-user_s-uid_gid.md)
     - [Connect i2c display to DIY pikvm](Wiki/linux/pikvm-i2c-display.md)
     - [Install Android SDK (without Android studio)](Wiki/linux/install-android-sdk.md)
     - [How to format an SD-Card in Linux (cli)](Wiki/linux/format-sd-card.md)
