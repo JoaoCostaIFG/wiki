@@ -8,6 +8,7 @@
     - [Logging tips](Wiki/programming/logging.md)
     - [Mockito Verify](Wiki/programming/java-mockito.md)
   - [Linux](Wiki/linux/README.md)
+    - [Imagine you are hosting something like ollama in your computer. It's better to access `ollama.localhost` then `localhost:11434`. *This also applies to other apps*.](Wiki/linux/Local-DNS-for-local-services.md)
     - [Make raspberry pi file system read-only](Wiki/linux/raspberrypi-readonly.md)
     - [OBS stream screen in camera](Wiki/linux/obs-stream-camera.md)
     - [NVME logical block size configuration](Wiki/linux/nvme-block-size.md)
