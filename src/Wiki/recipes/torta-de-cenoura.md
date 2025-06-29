@@ -12,7 +12,7 @@
 
 ## Steps
 
-  - Pré-aquecer o forno 180º
+  - Pré-aquecer o forno 180º. Correção: 120° porque se não queima)
   - Fazer puré de cenoura:
      - Cozer cenouras + casca das laranjas + sal
      - Passar varinha mágica quando estiver cozido
