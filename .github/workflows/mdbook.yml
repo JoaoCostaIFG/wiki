@@ -1,8 +1,8 @@
 name: Deploy mdBook site to Pages
 
 on:
-  push:
-    branches: ["master"]
+#  push:
+#    branches: ["master"]
   workflow_dispatch:
   workflow_run:
     workflows:
