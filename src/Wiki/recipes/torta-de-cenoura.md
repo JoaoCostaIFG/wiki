@@ -3,7 +3,7 @@
 ## Ingredientes
 
   * 600g de Cenouras
-  * 500g de Açúcar
+  * ~~500g~~ 300g de Açúcar
   * 4 ovos
   * 5 colheres de sopa de Farinha
   * 2 Laranjas (casca de 2; sumo de uma)
@@ -12,7 +12,7 @@
 
 ## Steps
 
-  - Pré-aquecer o forno 180º. Correção: 120° porque se não queima)
+  - Pré-aquecer o forno ~~180º~~. Correção: 120° porque se não queima
   - Fazer puré de cenoura:
      - Cozer cenouras + casca das laranjas + sal
      - Passar varinha mágica quando estiver cozido

@@ -25,7 +25,7 @@ I like having swap and a separate partition for home (on a separate device).
 
 | Mount point | Partition type       | Suggested size          |
 |-------------|----------------------|-------------------------|
-| /boot       | EFI system partition | At least 300 MiB        |
+| /boot       | EFI system partition | At least 1 GiB        |
 | [SWAP]      | Linux swap           | _see below_             |
 | /           | Ext4                 | Remainder of the device |
 | /home       | Ext4                 | Another full device     |
