@@ -33,6 +33,7 @@
     - [Using tailscale in LXC containers](Wiki/linux/tailscale-in-lxc-container.md)
     - [How to format an SD-Card in Linux (cli)](Wiki/linux/format-sd-card.md)
     - [Install Arch Linux guide](Wiki/linux/install-arch.md)
+    - [SMBus Access](Wiki/linux/SMBus-Access-for-OpenRGB.md)
     - [Script help message](Wiki/linux/script-help-page.md)
     - [Smartcard reader on linux](Wiki/linux/smartcard-reader.md)
     - [Install Android SDK (without Android studio)](Wiki/linux/install-android-sdk.md)
@@ -40,3 +41,4 @@
     - [Shell Parameter Expansion](Wiki/linux/shell-param-expansion.md)
     - [Connect i2c display to DIY pikvm](Wiki/linux/pikvm-i2c-display.md)
     - [NVME logical block size configuration](Wiki/linux/nvme-block-size.md)
+    - [Untitled](Wiki/linux/Untitled.md)
