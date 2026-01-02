@@ -1,3 +1,5 @@
+# Hyprlock automation commands
+
 ## Command to lock screen
 
 `loginctl lock-session`

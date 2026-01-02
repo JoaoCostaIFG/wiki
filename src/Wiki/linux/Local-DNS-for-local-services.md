@@ -1,3 +1,5 @@
+# Local DNS for local services
+
 Imagine you are hosting something like ollama in your computer. It's better to access `ollama.localhost` then `localhost:11434`. *This also applies to other apps*.
 
 ## The trick
