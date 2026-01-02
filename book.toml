@@ -1,7 +1,6 @@
 [book]
 authors = ["JoaoCostaIFG"]
 language = "en"
-multilingual = false
 src = "src"
 title = "JoaoCostaIFG's Wiki"
 
