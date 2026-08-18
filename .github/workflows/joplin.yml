@@ -32,7 +32,7 @@ jobs:
         run: npm ci
       - name: Netbird Connect
         id: netbird
-        uses: Alemiz112/netbird-connect@175ca0487002e6d4d96d16da5f4b91f639e8a765 # v1.0.1
+        uses: Alemiz112/netbird-connect@fbea46300ca7ee907ff7d8e39ede3f556a6ecf10 # v1.0.2
         with:
           setup-key: ${{ secrets.NETBIRD_SETUP_KEY }}
           hostname: "ansible-docker-job"
