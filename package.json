@@ -1,4 +1,5 @@
 {
+  "license": "EUPL-1.2",
   "dependencies": {
     "joplin": "^3.6.2"
   }

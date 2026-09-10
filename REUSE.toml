@@ -1,0 +1,31 @@
+version = 1
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024-2026 Joao Costa <me@joaocosta.dev> & jmarcelomb"
+SPDX-License-Identifier = "EUPL-1.2"
+
+[[annotations]]
+path = "src/Wiki/**"
+precedence = "override"
+SPDX-FileCopyrightText = "2024-2026 Joao Costa <me@joaocosta.dev> & jmarcelomb"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "theme/index.hbs"
+precedence = "override"
+SPDX-FileCopyrightText = "2014-2026 mdBook contributors; modifications 2024-2026 Joao Costa <me@joaocosta.dev>"
+SPDX-License-Identifier = "MPL-2.0"
+
+[[annotations]]
+path = ["theme/catppuccin.css", "theme/catppuccin-admonish.css", "theme/catppuccin-alerts.css"]
+precedence = "override"
+SPDX-FileCopyrightText = "2021-2026 Catppuccin Org & contributors"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "src/_resources/**"
+precedence = "override"
+SPDX-FileCopyrightText = "Various artists (uncredited USB connector diagrams)"
+SPDX-License-Identifier = "LicenseRef-USB-Diagrams"

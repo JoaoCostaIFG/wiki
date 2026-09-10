@@ -40,5 +40,5 @@ The step that builds the mdBook is on a [separate action](./.github/workflows/md
 
 ## License
 
-Code is MIT.
+Code is [EUPL-1.2](./LICENSE).
 Wiki content is [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
